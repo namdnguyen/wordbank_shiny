@@ -1,7 +1,7 @@
 # init.R
 #
 
-my_packages = c("dplyr", "wordbankr", "stringr", "ggplot2", "shiny")
+my_packages = c("RMySQL", "wordbankr", "dplyr", "stringr", "ggplot2", "shiny")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
